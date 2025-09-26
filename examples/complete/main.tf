@@ -14,7 +14,7 @@ provider "aws" {
 
 import {
   to = module.ec2_instance.aws_instance.this[0]
-  id = "i-0a663dac78c9b0349"
+  id = "i-xxxxxxxxx"
 }
 
 # import {
