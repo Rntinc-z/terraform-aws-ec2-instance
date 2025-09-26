@@ -12,6 +12,10 @@ $ terraform plan
 $ terraform apply
 ```
 
+#######
+IF the instance only have one ebs volume, you don't need to import it.
+
+
 Note that this example may create resources which can cost money. Run `terraform destroy` when you don't need these resources.
 
 <!-- BEGIN_TF_DOCS -->
